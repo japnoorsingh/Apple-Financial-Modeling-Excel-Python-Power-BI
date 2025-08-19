@@ -9,8 +9,7 @@ Driver-based 3-statement model (Excel) and an interactive Power BI dashboard bui
 
 ## 🔎 Quick Demo
 > (Replace with your exports)
-![Executive Summary](outputs/screenshots/executive_summary.png)
-![Projections vs Actuals](outputs/screenshots/projections_vs_actuals.png)
+![Executive Summary](image.png)
 
 ## 📂 Open the work
 - **Excel model:** [`excel/Financial Modelling.xlsx`](excel/Financial%20Modelling.xlsx)  
