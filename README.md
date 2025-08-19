@@ -7,13 +7,9 @@ Driver-based 3-statement model (Excel) and an interactive Power BI dashboard bui
 - Power BI dashboard: Executive Summary, 3-Statement, Actuals vs Projections, KPI deep-dive
 - Accounting checks: BS balances; CF ties to change in cash; YoY variance visuals
 
-## 🔎 Quick Demo
-> (Replace with your exports)
-![Executive Summary](image.png)
-
 ## 📂 Open the work
 - **Excel model:** [`excel/Financial Modelling.xlsx`](excel/Financial%20Modelling.xlsx)  
-- **Assumptions:** [`excel/Apple.cxlsx`](excel/Apple.cxlsx)  
+- **Assumptions:** [`excel/Apple.cxlsx`](excel/Apple.xlsx)  
 - **Power BI file:** [`powerbi/APPLE PROJECTIONS.pbix`](powerbi/APPLE%20PROJECTIONS.pbix)  
 - **Notebook (prep):** [`python/apple_model.ipynb`](python/apple_model.ipynb)  
 - **Raw data:** [`data/raw/Raw Data.xlsx`](data/raw/Raw%20Data.xlsx)
