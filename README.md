@@ -1,38 +1,32 @@
-# Apple Financial Modeling — Excel + Python + Power BI
+# Apple Financial Modeling — Excel + Power BI (+ Python prep)
 
-Compact project showcasing a 3-statement model (Excel) and a BI dashboard, built from Kaggle historicals.
+Driver-based 3-statement model (Excel) and an interactive Power BI dashboard built from Kaggle historicals (2016–2019) with projections to 2024.
 
-## Files
-- **data/raw/** `Raw Data.xlsx` — source historicals (2016–2019)
-- **excel/** `Financial Modelling.xlsx` — 3-statement model & projections (2020–2024)  
-- **excel/** `Apple.cxlsx` — assumptions / scenarios
-- **python/** `apple_model.ipynb` — light prep/calcs for BI (optional)
-- **powerbi/** `APPLE PROJECTIONS.pbix` — interactive dashboard
+**TL;DR highlights**
+- 3-statement model with assumptions & scenarios (growth, margins, capex, WC, tax)
+- Power BI dashboard: Executive Summary, 3-Statement, Actuals vs Projections, KPI deep-dive
+- Accounting checks: BS balances; CF ties to change in cash; YoY variance visuals
 
-> Tip: Track `.pbix` with Git LFS if the repo is public.
+## 🔎 Quick Demo
+> (Replace with your exports)
+![Executive Summary](outputs/screenshots/executive_summary.png)
+![Projections vs Actuals](outputs/screenshots/projections_vs_actuals.png)
 
-## How to Use
-**Excel**
-1) Open `Financial Modelling.xlsx`.  
-2) Adjust drivers in `Apple.cxlsx` (growth, margins, WC, CapEx, tax).  
-3) Confirm IS/BS/CF balance and review Base/Bull/Bear.
+## 📂 Open the work
+- **Excel model:** [`excel/Financial Modelling.xlsx`](excel/Financial%20Modelling.xlsx)  
+- **Assumptions:** [`excel/Apple.cxlsx`](excel/Apple.cxlsx)  
+- **Power BI file:** [`powerbi/APPLE PROJECTIONS.pbix`](powerbi/APPLE%20PROJECTIONS.pbix)  
+- **Notebook (prep):** [`python/apple_model.ipynb`](python/apple_model.ipynb)  
+- **Raw data:** [`data/raw/Raw Data.xlsx`](data/raw/Raw%20Data.xlsx)
 
-**Python (optional)**
-1) Open `apple_model.ipynb`.  
-2) Run all cells → export a clean table for BI if needed.
+## ▶️ How to run (quick)
+**Excel:** Open `Financial Modelling.xlsx`, tweak drivers in `Apple.cxlsx`, review IS/BS/CF.  
+**Power BI:** Open `APPLE PROJECTIONS.pbix` → set data source paths → **Refresh**.  
+**Python (optional):** Run `apple_model.ipynb` to standardize inputs for BI.
 
-**Power BI**
-1) Open `APPLE PROJECTIONS.pbix`.  
-2) Fix data source paths to this repo, then **Refresh**.  
-3) Pages: Executive Summary, 3-Statement, Actuals vs Projections, KPI Deep-Dive.  
-4) For cards/charts: set **Display units = Billions** (where applicable).
+> Display units: set major cards/axes to **Billions** in Power BI.
 
-## KPIs & Checks
-Revenue, Net Income, Gross/Op Margin %, FCF, ROIC; BS balances and CF ties to change in cash; YoY variance visuals.
-
-## CV Summary (use 2–3 bullets)
-- Built a driver-based **3-statement model** (FY20–FY24) from FY16–FY19 historicals.  
-- Developed a **Power BI dashboard** to visualize KPIs and scenario impacts.  
-- Standardized inputs with a **Python notebook** feeding the BI layer.
+## 🧰 Tech
+Excel • Power BI • Python (pandas)
 
 *Educational project. Not investment advice.*
