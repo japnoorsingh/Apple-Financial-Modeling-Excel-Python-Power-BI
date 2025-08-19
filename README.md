@@ -8,11 +8,11 @@ Driver-based 3-statement model (Excel) and an interactive Power BI dashboard bui
 - Accounting checks: BS balances; CF ties to change in cash; YoY variance visuals
 
 ## 📂 Open the work
-- **Excel model:** [`excel/Financial Modelling.xlsx`](excel/Financial%20Modelling.xlsx)  
-- **Assumptions:** [`excel/Apple.cxlsx`](excel/Apple.xlsx)  
+- **Excel model:** [`excel/Financial Modelling.xlsx`](Excel/Financial%20Modelling.xlsx)  
+- **Assumptions:** [`excel/Apple.cxlsx`](Excel/Apple.xlsx)  
 - **Power BI file:** [`powerbi/APPLE PROJECTIONS.pbix`](powerbi/APPLE%20PROJECTIONS.pbix)  
 - **Notebook (prep):** [`python/apple_model.ipynb`](python/apple_model.ipynb)  
-- **Raw data:** [`data/raw/Raw Data.xlsx`](data/raw/Raw%20Data.xlsx)
+- **Raw data:** [`data/raw/Raw Data.xlsx`](Excel/Raw%20Data.xlsx)
 
 ## ▶️ How to run (quick)
 **Excel:** Open `Financial Modelling.xlsx`, tweak drivers in `Apple.cxlsx`, review IS/BS/CF.  
